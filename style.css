@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: #0C0A0A;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 8px;
+    background: #000;
+}
+
+.navbar {
+    display: flex;
+    padding: 22px 0;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar .menu-btn {
+    display: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.navbar .logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar .logo img{
+    width: 60px;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.navbar .logo:hover {
+    color: #EC0D41;
+}
+
+.navbar .links {
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+}
+
+.navbar .links .close-btn {
+    display: none;
+    color: #000;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 1.5rem;
+}
+
+.navbar .links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar .links a:hover {
+    color: #EC0D41;
+    transition: 0.4s;
+}
+
+
+#home-sec {
+    padding-bottom: 4em;
+}
+
+.intro-text {
+    text-align: center;
+    font-size: 40px;
+    margin: 3em;
+}
+
+.intro-1 {
+    color: #EC0D41;
+}
+
+.intro-2 {
+    color: #fff;
+}
+
+.intro-3 {
+    color: #EC0D41;
+}
+
+.buttons{
+   width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+    
+}
+
+.buttons a .cv-button {
+    width: 12em;
+    height: 3em;
+    font-size: 20px;
+    color: #EC0D41;
+    background-color: #000;
+    border-radius: 12px;
+    border-color: #EC0D41;
+    margin: 1em;
+    transition: 0.2s ease;
+}
+
+.buttons a .cv-button:hover {
+    background: #EC0D41;
+    color: #000;
+    font-weight: 700;
+    outline: 2px solid #EC0D41;
+}
+
+.buttons a .hire {
+    width: 12em;
+    height: 3em;
+    font-size: 20px;
+    color: #EC0D41;
+    background-color: #000;
+    border-radius: 12px;
+    border-color: #EC0D41;
+    margin: 1em;
+}
+
+.buttons a .hire:hover {
+    background: #EC0D41;
+    color: #000;
+    font-weight: 700;
+    outline: 2px solid #EC0D41;
+}
+
+#about-me {
+    background: #000;
+    padding: 3em;
+}
+
+.about-text {
+    text-align: center;
+    font-size: 40px;
+    padding: 2em;
+}
+
+.about-text-1 {
+    color: #EC0D41;
+}
+
+.about-text-2 {
+    color: #fff;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    left: 30%;
+    background: transparent;
+    border: 1px solid #EC0D41;
+    max-width: 450px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container .main-image-container {
+    max-width: 18em;
+    height: 14em;
+  }
+
+.container .main-image-container .main-image{
+    width: 100%;
+    height: 100%;
+
+}
+
+.container .main-text {
+    color: #EC0D41;
+    height: 14em;
+    padding: 0.8em;
+    text-align: center;
+    background: transparent;
+}
+
+.container .main-text p {
+    font-size: 16px;
+}
+
+
+#contact {
+    background: #0C0A0A;
+    padding: 3em;
+}
+
+.contact-main {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    padding: 2em;
+}
+
+.container-2 {
+    position: relative;
+    display: flex;
+    width: max-content;
+    max-width: 720px;
+    left: 25%;
+    background: #000;
+    border: 1px solid #EC0D41;
+
+}
+
+
+.container-2 .contact-image-container .contact-image{
+    width: 20em;
+    height: 18em;
+}
+
+.container-2 .contact-text {
+    color: #EC0D41;
+    padding: 4em;
+    text-align: center;
+    justify-content: center;
+}
+
+.social {
+    left: 30%;
+    transition: 0.5s ease;
+    width: max-content;
+    position: relative;
+}
+
+.social .face {
+    width: 3.5em;
+    height: 3.5em;
+    margin: 2em;
+}
+
+
+
+.social .what {
+    width: 3em;
+    height: 3em;
+    margin: 2em;
+}
+
+
+.social .insta {
+    width: 3em;
+    height: 2.8em;
+    margin: 1.9em;
+}
+
+
+.social .link {
+    width:  3.2em;
+    height: 3em;
+    margin: 2.1em;
+}
+
+footer {
+    background-color: #000;
+    color: #EC0D41;
+    text-align: center;
+    font-size: 1em;
+    padding: 2em;
+}
+
+@media screen and (max-width: 900px) {
+
+    .navbar :is(.menu-btn, .links .close-btn) {
+        display: block;
+    }
+
+
+    .navbar {
+        padding: 12px 4px;
+    }
+
+    .navbar .logo img {
+        display: none;
+    }
+
+    .navbar .logo h2 {
+        font-size: 1.2em;
+    }
+
+    .navbar .links {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        padding-top: 60px;
+        text-align: center;
+        background: #fff;
+        transition: 0.2s ease;
+    }
+
+    .navbar .links .show-menu {
+        left: 0;
+    }
+
+    .navbar .links a {
+        color: #000;
+        display: inline-flex;
+        margin: 20px 0;
+        font-size: 1.2rem;
+    }
+
+
+    .intro-text {
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 2em;
+    }
+
+    .buttons a .cv-button {
+        width: 12em;
+        height: 3em;
+        font-size: 12px;
+    }
+
+    .buttons a .hire{
+        width: 12em;
+        height: 3em;
+        font-size: 12px;
+    }
+
+    #about-me {
+        width: 100%;
+        padding-bottom: 6em;
+    }
+
+    .about-text {
+        font-size: 30px;
+    }
+
+    .container {
+        left: 8%;
+        max-width: 350px;
+        width: 100%;
+        max-height: 300px;
+        height: 100%;
+    }
+
+    .container .main-image-container {
+        max-width: 150px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .container .main-text {
+        height: 10em;
+        padding: 0.8em;
+    }
+
+    .container .main-text p {
+        font-size: 12px;
+        font-weight: 500;
+        padding: 1em;
+    }
+
+    .contact-main {
+        font-size: 30px;
+    }
+
+    .container-2 {
+        left: 5%;
+        max-width: 400px;
+        width: 100%;
+        max-height: 350px;
+        height: 100%;
+    }
+
+    .container-2 .contact-image-container {
+        max-width: 300px;
+        width: 100%;
+        max-height: 300px;
+        height: 100%;
+    }
+
+    .container-2 .contact-image-container .contact-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-2 .contact-text {
+        padding: 1.5em;
+    }
+
+    .container-2 .contact-text p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .social {
+        left: 10%;
+        margin: 1em;
+    }
+    .social .face {
+        width: 2.5em;
+        height: 2.5em;
+        margin: 1em;
+    }
+
+    .social .insta {
+        width: 2.3em;
+        height: 2.3em;
+        margin: 1em;
+    }
+
+    .social .what {
+        width: 2.3em;
+        height: 2.3em;
+        margin: 1em;
+    }
+
+    .social .link {
+        width: 2.5em;
+        height: 2.5em;
+        margin: 1em;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+}
